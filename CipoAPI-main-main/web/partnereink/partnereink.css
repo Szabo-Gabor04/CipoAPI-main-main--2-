@@ -1,0 +1,70 @@
+/* partnereink.css */
+
+/* Alapstílusok */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #293040;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #c9ac8a;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    border-bottom: 2px solid #c9ac8a;
+    color: #c9ac8a;
+    text-decoration: none;
+    
+  }
+
+main {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+footer {
+    background-color: #293040;
+    color: #c9ac8a;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Stílus a partnercégekhez */
+.db {
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+.db img {
+    width: 100px; /* Válaszd az általad kívánt méretet */
+    height: auto;
+    display: block;
+    margin: 0 auto 10px; /* középre igazítás */
+}
+
+#bg{background-color: #fff;}

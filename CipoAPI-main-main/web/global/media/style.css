@@ -1,0 +1,453 @@
+
+body {
+    
+    height:auto;
+    margin:0px;
+ 
+   
+ }
+ .partnerek{
+  background: #fff;
+  padding:10px;
+ }
+ .partnerek img{
+   margin-top: 10vh;
+ }
+
+ .kosark{
+  background: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+ 
+ 
+ 
+ 
+ header {
+   background-color: #293040; 
+   color: #c9ac8a;
+   padding: 15px;
+   text-align: center;
+   align-items: center;
+ }
+ 
+ #logo img {
+   max-width: 200px; 
+   height: auto;
+ }
+ 
+ nav ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ nav ul li {
+   display: inline-block;
+   margin-right: 20px;
+ }
+ 
+ nav a {
+   text-decoration: none;
+   color: #c9ac8a;
+   font-weight: bold;
+ }
+ 
+ nav a:hover {
+   border-bottom: 2px solid #c9ac8a;
+   color: #c9ac8a;
+   text-decoration: none;
+   
+ }
+ 
+ 
+ main {
+   padding: 20px;
+   background-color: #312f36;
+  text-align: center;
+   padding: 20px;
+  height: 485px;
+  display: grid;
+  height: 500px;
+   box-sizing: border-box;
+ }
+ 
+ h1 {
+   color: #c9ac8a;
+ 
+ }
+ 
+ p {
+   color:  black;
+ }
+ 
+ 
+ 
+ .product-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
+ 
+ .product {
+   width: 30%;
+   margin: 20px 0;
+   background-color: whitesmoke;
+   padding: 15px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   height: auto; 
+   margin-top: -3px;
+   color:#293040;
+   font-size: smaller;
+   
+ }
+ 
+ .product img {
+   max-width: 100%;
+   height: 110px;
+ }
+ 
+ 
+ 
+ footer {
+   background-color: #293040; 
+   height: 50px;
+   text-align: center;
+   
+ 
+ }
+ 
+ footer p{color: #c9ac8a;
+ }
+ 
+ 
+ 
+ 
+ 
+ @media (max-width: 768px) {
+   .product {
+       width: 100%;
+   }
+ }
+ /* kapcsolat.css */
+
+/* Alapstílusok */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #293040; 
+    color: #c9ac8a;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #c9ac8a;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover{
+  color: #c9ac8a;
+  border-bottom: 2px solid #c9ac8a;
+  text-decoration: none;
+  
+  
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #293040; 
+    color: #c9ac8a;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Stílus a kapcsolat információhoz */
+  #ell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .el {
+    margin: 0 10px;
+  }
+  
+  .el p {
+    margin: 0;
+  }
+  
+  .el p::before {
+    margin-right: 5px;
+  }
+  
+  /* Médiaképernyők kezelése */
+  @media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+    header nav {
+        margin-top: 10px;
+    }
+  
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+  }
+  body{background-color: #312f36;}
+
+
+.kosar{
+
+background-color: #293040;
+color:#c9ac8a;
+
+
+
+}
+
+.kosarimg{
+
+border:1px solid #c9ac8a;
+padding: 5px;
+margin-right: 10px;
+
+}
+
+.ossz{background-color: red;}
+/* partnereink.css */
+
+/* Alapstílusok */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #293040;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #c9ac8a;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    border-bottom: 2px solid #c9ac8a;
+    color: #c9ac8a;
+    text-decoration: none;
+    
+  }
+
+main {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+footer {
+    background-color: #293040;
+    color: #c9ac8a;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Stílus a partnercégekhez */
+.db {
+    text-align: center;
+    color: black;
+    margin:20px;
+    line-height: 100%;
+}
+
+.db img {
+    width: 100px; /* Válaszd az általad kívánt méretet */
+    height: auto;
+    display: block;
+    margin: 0 auto 10px; /* középre igazítás */
+}
+
+#bg{
+    background-color: #fff;
+    display:flex;
+    margin:auto;
+}
+
+body {
+    
+    height:auto;
+    margin:0px;
+ 
+   
+ }
+ 
+ 
+ 
+ 
+ header {
+   background-color: #293040; 
+   color: #c9ac8a;
+   padding: 15px;
+   text-align: center;
+   align-items: center;
+ }
+ 
+ #logo img {
+   max-width: 200px; 
+   height: auto;
+ }
+ 
+ nav ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ nav ul li {
+   display: inline-block;
+   margin-right: 20px;
+ }
+ 
+ nav a {
+   text-decoration: none;
+   color: #c9ac8a;
+   font-weight: bold;
+ }
+ 
+ nav a:hover {
+   border-bottom: 2px solid #c9ac8a;
+   color: #c9ac8a;
+   text-decoration: none;
+   
+ }
+ 
+ 
+ main {
+   padding: 20px;
+   background-color: #312f36;
+  text-align: center;
+   padding: 20px;
+  height: 485px;
+  display: grid;
+  height: 500px;
+   box-sizing: border-box;
+ }
+ 
+ h1 {
+   color: #c9ac8a;
+ }
+ 
+ p {
+   color:  black;
+ }
+ 
+ 
+ 
+ .product-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   
+ }
+ 
+ #cipok{
+    width: auto;
+    margin: 20px 0;
+ 
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: auto; 
+    margin-top: -3px;
+    color:#293040;
+    font-size: smaller;
+  
+ }
+
+ #cipok .product{margin-left: 1em;
+    background-color: whitesmoke;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    
+   
+   
+}
+ 
+ .product img {
+   max-width: 100%;
+   height: 100px;
+ }
+ 
+ 
+ 
+ footer {
+   background-color: #293040; 
+  
+   width: 100%;
+   text-align: center;
+   position: fixed;
+   bottom: 0;
+   
+ 
+ }
+ 
+ footer p{color: #c9ac8a;
+ }
+ 
+
+ 
+ 
+ 
+ @media (max-width: 768px) {
+   .product {
+       width: 100%;
+   }
+ }
+
+ 

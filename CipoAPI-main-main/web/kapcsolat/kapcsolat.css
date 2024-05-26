@@ -1,0 +1,93 @@
+/* kapcsolat.css */
+
+/* Alapstílusok */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #293040; 
+  color: #c9ac8a;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #c9ac8a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover{
+color: #c9ac8a;
+border-bottom: 2px solid #c9ac8a;
+text-decoration: none;
+
+
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #293040; 
+  color: #c9ac8a;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Stílus a kapcsolat információhoz */
+#ell {
+  background: #d0d0d0;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.el {
+  margin: 0 10px;
+}
+
+.el p {
+  margin: 0;
+}
+
+.el p::before {
+  margin-right: 5px;
+}
+
+/* Médiaképernyők kezelése */
+@media (max-width: 768px) {
+  header {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  header nav {
+      margin-top: 10px;
+  }
+
+  nav ul li {
+      display: block;
+      margin-bottom: 10px;
+  }
+}
